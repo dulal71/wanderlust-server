@@ -162,6 +162,7 @@ app.get('/', (req, res) => {
   res.send('Hello World! This is waderlast server')
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+// app.listen(port, () => {
+//   console.log(`Example app listening on port ${port}`)
+// })
+module.exports = app;
