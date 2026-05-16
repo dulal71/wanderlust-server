@@ -130,6 +130,8 @@ app.get('/booking/:userId', authorization ,async(req,res)=>{
   res.send(result)
 })
 
+
+// delete bookings
 app.delete('/booking/:id',authorization, async(req,res)=>{
   try{
  const id = req.params.id
